@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    background-color: azure;
+
+}
+.paraa{
+    width:800px;
+    position: absolute;
+    font-family: penna;
+    left:350px;
+    top:80PX;
+    font-style: normal;
+    font-size: 20px;
+    line-height:40px;
+    
+}
+.hey{
+    position: absolute;
+    left: 350px;
+    top:20px;
+}
+
+@media screen and (max-width:600px) {
+.para{
+    width:350px;
+}
+.hey{
+    position: absolute;
+    left:10px;
+    top:20px;
+}
+.paraa{
+    width:350px;
+    font-size:15px;
+    line-height:30px;
+    left: 10px;
+    overflow: hidden;
+}
+
+}
